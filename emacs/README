@@ -1,0 +1,62 @@
+
+--- Keys defined in minimal-keys.el ---
+
+   m     mark
+   k     kill
+   y     yank
+   w     write, save to disk
+   g     get file, read from disk
+   q     quit 
+   b     switch buffer
+   1     one window 
+   2     two windows
+   o     switch to other window
+   <     go to beginning of line
+   >     go to end of line
+   s     substitute
+   ]     scroll page down
+   [     scroll page up
+   z     suspend emacs
+   
+--- Keys defined in simple-keys.el ---
+
+   h     home (go to top of buffer)
+   e     end  (go to end of buffer)
+  ^e     reload .emacs
+   v     search for string
+  ^o     toggle insert/overwrite mode
+   /     kill this word
+   SPC   move forward one word
+   n     move backwards one word
+   a     list "real" buffers 
+   ^a    list "all" buffers
+   -     go to previous line containing '---'
+   =     go to next line containing '---'
+   RET   move line to top
+  ^RET   move line to top and save position
+  ^h     return to saved position
+   BS    kill backwards to start of line
+   ^     kill line above cursor   
+   (     Start definiiton of keyboard macro
+   )     End definition of keyboard macro
+   &     Execute keyboard macro
+
+--- Keys defined in fancy-keys.el ---
+   i     inform
+   %     toggle to/from math mode
+   c     comment out region
+  ^c     comment in region
+   o     occur: list lines containing a selected string
+         Then:  RET in a line goes there in main buffer.
+   *     Go to a line by number.column
+   j     bookmark prefix, ^j^h for help
+   
+
+
+
+
+
+
+
+
+
